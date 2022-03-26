@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+# {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategray;
+    color: white;
+    font-size: 20px;
+}
+
+#site {
+    border: 2px solid black;
+}
+
+.cartao {
+    border: 2px solid white;
+    width: 256px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    float: left;
+}
+
+.cartao .foto img {
+   width: 95%; 
+   border-radius: 50%;
+}
+
+.cartao .texto {
+    margin-top: 10px;
+}
+
+.texto p {
+    color: white;
+    margin: 0;
+}
+
+.espaco {
+    clear: both;
+}
+
+#dobro {
+    font-size: 2em;
+}
+
+#triplo {
+    font-size: 3rem;
+}
+
+.tamanho {
+    font-size: 40px;
+}
