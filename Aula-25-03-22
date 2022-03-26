@@ -1,0 +1,11 @@
+float:
+
+Coloca uma idv flutuante porem estraga o site
+para concertar você precisa apenas de colocar uma:
+
+Div Classs="espaco" {
+  cleat: both;
+}
+corrigido
+
+usar "em" para acessibilidade no site
