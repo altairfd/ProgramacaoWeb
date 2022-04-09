@@ -1,0 +1,52 @@
+* {
+    color:black;
+    text-align: center;
+}
+
+#site {
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+        'topo topo topo'
+        'menuH menuH menuH'
+        'menuV conteudo publicidade'
+        'rodape rodape rodape'
+    ;
+}
+
+#topo {
+    background-color: red;
+    grid-area: topo;
+    height: 100px;
+}   
+
+#menuH {
+    background-color: pink;
+    grid-area: menuH;
+    padding: 1em;
+}
+
+#menuV {
+    background-color: purple;
+    grid-area: menuV;
+    height: 300px;
+}
+
+#conteudo {
+    background-color: green;
+    grid-area: conteudo;
+    
+}
+
+
+#publicidade {
+    background-color: blue;
+    grid-area: publicidade;
+}
+
+#rodape {
+    background-color: rgb(184, 19, 19);
+    grid-area: rodape;
+    height: 60px;
+}

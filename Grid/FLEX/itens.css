@@ -1,0 +1,26 @@
+#conteiner {
+    background-color: darkmagenta;
+    height: 75%;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.itens {
+    background-color: pink;
+    margin: 0.1vw;
+}
+
+.um {
+    flex-grow: 1;
+    flex-basis: 1;
+    flex-shrink: 400px;
+}
+
+.dois {
+    flex-grow: 2;
+}
+
+.tres {
+    flex-grow: 1;
+}

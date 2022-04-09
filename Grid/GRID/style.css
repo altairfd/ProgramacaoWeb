@@ -1,0 +1,48 @@
+
+* {
+    background-color: darkgray;
+}
+
+#galeria {
+    background-color: darkmagenta;
+    border: 2px solid black;
+    
+}
+
+#grande {
+    margin: 1em;
+    text-align: center;
+    
+}
+
+#miniaturas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0.5em;
+}
+
+.miniatura {
+    text-align: center;
+    background-color: darkred;
+    border: 4px solid white;
+    padding: 0.5em;
+    transition: all 1,5s linear;
+    
+}
+
+.miniatura:hover {
+    background-color: blue;
+}
+
+.miniatura img {
+    width: 100%;
+    display: block;
+    border-radius: 10%;
+    filter: hue-rotate(0deg);
+    transition: all 5s linear;
+}
+
+.miniatura:hover img { /* quando coloca o mouse em cima */
+    border-radius: 0;
+    filter: hue-rotate(1080deg);
+}
