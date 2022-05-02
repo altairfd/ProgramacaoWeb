@@ -1,0 +1,74 @@
+ body {
+     height: 150vh;
+    /* background-color: darkgreen;*/
+    /* height: 100vh;   */
+    /* background-image: radial-gradient(yellow, green, violet, black); */
+    
+   /*  background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 25%, 25%; */
+    color: white;
+    background-image: url(batsinal.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    /* background-size: ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ #box {
+    background-color: rgba(0, 0, 0, .5);    
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 1em;     
+    max-width: 650px;
+    position: relative;
+
+ }
+
+ #propaganda {
+    background-color: black;
+    padding: 1em;
+    border-radius: 10px;
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+ }
+
+#formulario {
+    background-color: rgba(128, 128, 128, 0.171);
+    font-size: 1rem;
+    position: absolute;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+}
+
+#menu {
+    background-color: rgba(128, 128, 128, 0.164);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    background-color: black;
+    padding: 0.5em 0.5em;
+    border-radius: 2px;
+    margin: 0 1em;
+    
+
+}
